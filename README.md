@@ -1,1 +1,3 @@
 # about-me
+i started my lab 02 , i did the html where i wrote some things from my biography , i have used css to add some style - added a background image , added a photo of me  . i used opacity on my photo and i placed it at the top center . I used order list to decribe few of my attributes and the for my skills i used ul list . #
+I used Java also , where i used  the conditional statements IF and ELSE to answer some questions . Also i used the Switch expresion 
