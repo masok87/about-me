@@ -21,9 +21,7 @@ h1 {
     background-color: #a09988;
   }
   
-  #something-else {
-    border: 5px dashed #ffe600;
-  }
+  
  
   .mario {
     width: 10%;
@@ -58,4 +56,12 @@ h1 {
     height: 20rem;
     position: absolute;
     background-color: rgb(7, 76, 136);
+  }
+  article {
+    border: medium solid rgb(212, 209, 16);
+    padding: 2rem;
+    width: 50%;
+    position: relative;
+    left: 24rem;
+    background-color: chocolate;
   }
