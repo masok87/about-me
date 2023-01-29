@@ -1,67 +1,90 @@
 h1 {
-    font-family:  Arial, Helvetica, sans-serif ; font-size: x-large;
-    color: aqua;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  color: aqua;
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: aqua;
+}
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: aqua;
+}
+
+p {
+  font-size: larger;
+  color: greenyellow;
+}
+
+p.more-content {
+  background-color: #837c6d;
+}
+
+.more-content {
+  background-color: #a09988;
+}
+
+.mario {
+  width: 10%;
+  display: block;
+  margin: 0 auto;
+  opacity: 100%;
+  border-radius: 8px;
+}
+body {
+  background-image: url(backend.webp);
+  background-position: center;
+  background-size: 100%;
+}
+ol {
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  color: greenyellow;
+}
+ul {
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  color: greenyellow;
+}
+p {
+  font-size: x-large;
+  color: greenyellow;
+}
+li {
+  font-size: x-large;
+  color: greenyellow;
+}
+section {
+  border: 10px solid rgb(229, 255, 0);
+  width: 42%;
+  margin: 4rem auto 0 auto;
+  height: 20rem;
+  position: absolute;
+  background-color: rgb(7, 76, 136);
+}
+article {
+  -webkit-animation: fadein 10s;
+  border: medium solid rgb(212, 209, 16);
+  padding: 2rem;
+  width: 50%;
+  position: relative;
+  left: 24rem;
+  background-color: chocolate;
+}
+#top ol {
+  margin-top: 25px;
+  font-size: 21px;
+  text-align: center;
+  animation: fadein 10s;
+  -webkit-animation: fadein 10s;
+  -o-animation: fadein 10s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
-  h2{
-    font-family: Arial, Helvetica, sans-serif;color: aqua;
+  100% {
+    opacity: 1;
   }
-  h3{font-family: Arial, Helvetica, sans-serif; color :aqua;
-   
-  }
-  
-  p {font-size: larger;
-    color:greenyellow;
-  }
-  
-  p.more-content {
-    background-color: #837c6d;
-  }
-  
-  .more-content {
-    background-color: #a09988;
-  }
-  
-  
- 
-  .mario {
-    width: 10%;
-    display: block;
-    margin: 0 auto;
-    opacity: 60%;
-   
-    
-  }
-  body{
-    background-image: url(22.jpg);
-    
-    
-    
-   
-  }
-  ol{
-    font-size: larger;font-family: Arial, Helvetica, sans-serif;color: greenyellow;
-  }
-  ul{
-    font-size: larger;font-family:Arial, Helvetica, sans-serif; color: greenyellow;
-  }
-  p{font-size: x-large;
-  color: greenyellow;}
-  li{
-    font-size: x-large;color: greenyellow ;
-  }
-  section {
-    border: 10px solid rgb(229, 255, 0);
-    width: 20%;
-    margin: 4rem auto 0 auto;
-    height: 20rem;
-    position: absolute;
-    background-color: rgb(7, 76, 136);
-  }
-  article {
-    border: medium solid rgb(212, 209, 16);
-    padding: 2rem;
-    width: 50%;
-    position: relative;
-    left: 24rem;
-    background-color: chocolate;
-  }
+}
